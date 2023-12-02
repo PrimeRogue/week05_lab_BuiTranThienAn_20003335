@@ -1,5 +1,4 @@
 package vn.edu.iuh.fit.backend.enums;
-
 public enum SkillType {
     SOFT_SKILL(0),
     UNSPECIFIC(1),

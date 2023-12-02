@@ -34,7 +34,7 @@ public class JobController {
         modelAndView.setViewName("company_actions/list_job");
         return modelAndView;
     }
-    @GetMapping("/findJobMatchWithMe")
+    @GetMapping("/findJobMatchW                                                                                                                                                         ithMe")
     public ModelAndView findJobMatchWithMe(HttpServletRequest request){
         Candidate candidate = (Candidate) request.getSession().getAttribute("candidateLogin");
         List<Job> jobs = jobRepository.findAllJobMatchWithCandidate(candidate.getId());
