@@ -16,5 +16,14 @@
 # 6. Trang Đăng tin tuyển người
 ![.](assets/6.PNG)
 
-# 7. Tìm ứng viên
+# 7. Trang Tìm ứng viên
 ![.](assets/7.PNG)
+
+# 8. Đăng nhập với tài khoản Candidate
+![.](assets/8.PNG)
+
+# 9. Sau khi Đăng nhập với tài khoản Candidate, xuất hiện Menu gồm: Đề xuất skill và Gợi ý công việc
+![.](assets/9.PNG)
+
+# 10. Trang đề xuất Skill
+![.](assets/10.PNG)
