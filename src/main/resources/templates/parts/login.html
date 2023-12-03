@@ -1,0 +1,26 @@
+<!-- Login Form -->
+<div class="container mt-5 pt-5">
+    <h2 class="mb-4">Đăng nhập</h2>
+    <form>
+        <div class="mb-3">
+            <label for="username" class="form-label">Username</label>
+            <input type="text" class="form-control" id="username" name="username" required>
+        </div>
+        <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password" name="password" required>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Vai trò</label>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="role" id="companyRole" value="company">
+                <label class="form-check-label" for="companyRole">Company</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="role" id="candidateRole" value="candidate">
+                <label class="form-check-label" for="candidateRole">Candidate</label>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Đăng nhập</button>
+    </form>
+</div>
